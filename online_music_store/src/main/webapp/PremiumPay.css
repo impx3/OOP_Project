@@ -1,0 +1,109 @@
+body{
+   background-image:url(bg1.jpg);
+    background-size:cover;
+    /* background-position: center;*/
+    /* background-attachment: fixed;*/
+   /*  margin:100px;*/
+  }
+
+ .hb{
+    font-size: 20px;
+    font-weight: bold;
+    color:#220547;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     /* box-shadow: 0px 4px 8px rgb(128, 128, 128);*/
+    background-color: rgb(192, 192, 192);
+    height :30px;
+    width:300px;
+  }
+
+.btn {
+    /*box-shadow: 0px 4px 8px rgb(35, 35, 228);*/
+    height :40px;
+    width: 150px;
+    padding: 2px 5px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgb(0, 130, 191);
+    color:#220547;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property:box-shadow,transform;
+    transition-property:box-shadow,transform;
+ 
+ }
+ .btn:hover, .btn:focus, .btn:active{
+     -webkit-transform:scale(1.1);
+     transform: scale(1.1);
+ }
+input {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(0, 0, 255);
+    border-radius: 10px;
+    color: rgb(0, 0, 119);
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Papyrus;
+  }
+
+input:focus {
+    background-color: rgb(255, 255, 255);
+  }
+
+  ::placeholder {
+    color:rgb(192, 192, 192);
+    opacity: 1; 
+  }
+
+  .sb  {
+    background-color: rgb(0, 103, 206);
+    border-radius: 20px;
+    color: #2d0553;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property:box-shadow,transform;
+    transition-property:box-shadow,transform;
+ 
+ }
+ .sb:hover, .sb:focus, .sb:active{
+     -webkit-transform:scale(1.1);
+     transform: scale(1.1);
+     background-color: rgb(53, 154, 255);
+ }
+
+  form {
+    width : 600px;
+    margin : auto;
+    padding : 20px;
+    background: rgb(192, 192, 192);
+    font-size: 14px;
+    font-family: verdana;
+    color: rgb(0, 0, 255);
+  }
+
+  h2 {
+    font-family: "Brush Script MT";
+    color: rgb(0, 255, 255);
+  }
+  
+  h3 {
+    font-family: "Brush Script MT";
+    color: rgb(0, 0, 160);
+  }
+
+  .submitbtn:hover, .submitbtn:focus, .submitbtn:active{
+    -webkit-transform:scale(1.1);
+    transform: scale(1.1);
+    background-color: rgb(53, 154, 255);
+    cursor: pointer;
+}
